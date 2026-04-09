@@ -44,7 +44,7 @@ def index():
 
         except Exception as e:
             print('The Exception message is: ',e)
-            return e
+            return f"An error occurred: {str(e)}", 500
 
     else:
         return render_template('index.html')
