@@ -72,11 +72,11 @@ Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/A-SHI-M/Wine-Quality-MLproject.mlflow
+export MLFLOW_TRACKING_URI=
 
-export MLFLOW_TRACKING_USERNAME=A-SHI-M
+export MLFLOW_TRACKING_USERNAME=
 
-export MLFLOW_TRACKING_PASSWORD=d94bd2957aefccf6161b0169d20e974741c307eb
+export MLFLOW_TRACKING_PASSWORD=
 
 ```
 
@@ -113,7 +113,7 @@ export MLFLOW_TRACKING_PASSWORD=d94bd2957aefccf6161b0169d20e974741c307eb
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 993249607252.dkr.ecr.eu-north-1.amazonaws.com/mlproj
+    - Save the URI:
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -147,11 +147,11 @@ export MLFLOW_TRACKING_PASSWORD=d94bd2957aefccf6161b0169d20e974741c307eb
 
     AWS_SECRET_ACCESS_KEY=
 
-    AWS_REGION = eu-north-1
+    AWS_REGION =
 
-    AWS_ECR_LOGIN_URI = demo>>  993249607252.dkr.ecr.eu-north-1.amazonaws.com
+    AWS_ECR_LOGIN_URI =
 
-    ECR_REPOSITORY_NAME = mlproj
+    ECR_REPOSITORY_NAME =
 
 
 
